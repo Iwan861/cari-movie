@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@theme {
+  --color-utama: #1b1d2e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-utama);
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+}
